@@ -180,7 +180,6 @@
           <button class="filter-btn" data-filter="elearning">eLearning</button>
           <button class="filter-btn" data-filter="ilt">Instructor-Led</button>
           <button class="filter-btn" data-filter="jobaid">Job Aids</button>
-          <button class="filter-btn" data-filter="video">Video</button>
         </div>
 
         <!--
@@ -188,120 +187,70 @@
           To add a new project: duplicate one <article class="project-card"> block below,
           update data-category, the thumbnail label/icon, title, tags, description, and the
           "View Project" link (point it at a file in /projects or an external review link).
+          Category values wired to the filter bar above: elearning, ilt, jobaid.
+          "video" is also supported by the filter script — add a filter button back in if you
+          add a video project.
         -->
         <div class="projects-grid" id="projects-grid">
 
           <article class="project-card" data-category="elearning">
             <div class="card-thumb thumb-a">
               <span class="thumb-icon" aria-hidden="true">▶</span>
-              <span class="thumb-label">eLearning Module</span>
+              <span class="thumb-label">Interactive Course</span>
             </div>
             <div class="card-body">
-              <h3>Project Title Here</h3>
+              <h3>Summer Sports Coach Training Course</h3>
               <div class="card-tags">
-                <span class="tag">Storyline</span>
-                <span class="tag">Compliance</span>
+                <span class="tag">Self-Paced Onboarding</span>
+                <span class="tag">SEL</span>
               </div>
               <p>
-                One or two sentences describing the challenge, your approach, and the outcome.
-                Focus on the learner problem you solved.
+                A self-paced, interactive onboarding course built to train sports coaches across
+                9 school sites on the daily lesson flow, SEL facilitation, and a full library of
+                drills and games with grade-band modifications — closing with a knowledge check.
+                120 staff completed it ahead of summer programming.
               </p>
-              <a href="projects/replace-with-your-file.pdf" class="card-link">View Project →</a>
+              <a href="projects/coach-training-course.html" class="card-link" target="_blank" rel="noopener">View Project →</a>
             </div>
           </article>
 
           <article class="project-card" data-category="ilt">
             <div class="card-thumb thumb-b">
               <span class="thumb-icon" aria-hidden="true">👥</span>
-              <span class="thumb-label">Instructor-Led Training</span>
+              <span class="thumb-label">Staff Training Deck</span>
             </div>
             <div class="card-body">
-              <h3>Project Title Here</h3>
+              <h3>Classroom Management &amp; Group Agreements</h3>
               <div class="card-tags">
-                <span class="tag">Facilitator Guide</span>
-                <span class="tag">Onboarding</span>
+                <span class="tag">Staff Training</span>
+                <span class="tag">Classroom Culture</span>
               </div>
               <p>
-                One or two sentences describing the challenge, your approach, and the outcome.
-                Focus on the learner problem you solved.
+                A staff training deck on building a positive classroom culture — reframing
+                classroom dynamics, co-creating group agreements with students, and using a
+                growth-curve model to track behavior change over time.
               </p>
-              <a href="projects/replace-with-your-file.pdf" class="card-link">View Project →</a>
+              <a href="projects/classroom-management-group-agreements.pdf" class="card-link" target="_blank" rel="noopener">View Project →</a>
             </div>
           </article>
 
           <article class="project-card" data-category="jobaid">
             <div class="card-thumb thumb-c">
               <span class="thumb-icon" aria-hidden="true">📋</span>
-              <span class="thumb-label">Job Aid</span>
+              <span class="thumb-label">Facilitator Handout</span>
             </div>
             <div class="card-body">
-              <h3>Project Title Here</h3>
+              <h3>CHAMPS Training: Homework Block Handout</h3>
               <div class="card-tags">
-                <span class="tag">Quick Reference</span>
-                <span class="tag">Process</span>
+                <span class="tag">Facilitator Guide</span>
+                <span class="tag">After-School Program</span>
               </div>
               <p>
-                One or two sentences describing the challenge, your approach, and the outcome.
-                Focus on the learner problem you solved.
+                A quick-reference handout for staff running the after-school homework block —
+                covering seating charts, homework tracking, and rotating classroom roles, with
+                clear do's and don'ts for keeping the room focused and supportive.
               </p>
-              <a href="projects/replace-with-your-file.pdf" class="card-link">View Project →</a>
-            </div>
-          </article>
-
-          <article class="project-card" data-category="video">
-            <div class="card-thumb thumb-d">
-              <span class="thumb-icon" aria-hidden="true">🎬</span>
-              <span class="thumb-label">Video / Multimedia</span>
-            </div>
-            <div class="card-body">
-              <h3>Project Title Here</h3>
-              <div class="card-tags">
-                <span class="tag">Camtasia</span>
-                <span class="tag">Microlearning</span>
-              </div>
-              <p>
-                One or two sentences describing the challenge, your approach, and the outcome.
-                Focus on the learner problem you solved.
-              </p>
-              <a href="projects/replace-with-your-file.pdf" class="card-link">View Project →</a>
-            </div>
-          </article>
-
-          <article class="project-card" data-category="elearning">
-            <div class="card-thumb thumb-e">
-              <span class="thumb-icon" aria-hidden="true">▶</span>
-              <span class="thumb-label">eLearning Module</span>
-            </div>
-            <div class="card-body">
-              <h3>Project Title Here</h3>
-              <div class="card-tags">
-                <span class="tag">Rise 360</span>
-                <span class="tag">Product Training</span>
-              </div>
-              <p>
-                One or two sentences describing the challenge, your approach, and the outcome.
-                Focus on the learner problem you solved.
-              </p>
-              <a href="projects/replace-with-your-file.pdf" class="card-link">View Project →</a>
-            </div>
-          </article>
-
-          <article class="project-card" data-category="jobaid">
-            <div class="card-thumb thumb-f">
-              <span class="thumb-icon" aria-hidden="true">📋</span>
-              <span class="thumb-label">Job Aid</span>
-            </div>
-            <div class="card-body">
-              <h3>Project Title Here</h3>
-              <div class="card-tags">
-                <span class="tag">Infographic</span>
-                <span class="tag">Reference Guide</span>
-              </div>
-              <p>
-                One or two sentences describing the challenge, your approach, and the outcome.
-                Focus on the learner problem you solved.
-              </p>
-              <a href="projects/replace-with-your-file.pdf" class="card-link">View Project →</a>
+              <a href="projects/champs-homework-block-handout.pdf" class="card-link" target="_blank" rel="noopener">View Project →</a>
             </div>
           </article>
 
