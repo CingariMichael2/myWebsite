@@ -349,8 +349,15 @@ h1, h2, h3 { font-family: var(--font-heading); font-weight: 600; line-height: 1.
 }
 
 .education-list li:last-child { border-bottom: none; }
-.education-list li strong { color: var(--color-text); }
-.education-list li span { color: var(--color-text-muted); white-space: nowrap; }
+
+.edu-degree { color: var(--color-text-muted); }
+.edu-degree strong { color: var(--color-text); }
+
+.edu-date {
+  color: var(--color-text-muted);
+  white-space: nowrap;
+  margin-left: 16px;
+}
 
 /* ===================================================
    Projects
