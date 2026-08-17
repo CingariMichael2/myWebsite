@@ -40,16 +40,42 @@
     <!-- ===== Hero ===== -->
     <section class="hero">
       <div class="container hero-inner">
-        <p class="eyebrow">Instructional Design Portfolio · Newport Beach, CA</p>
+        <p class="hero-meta hero-location">
+          Newport Beach, CA
+          <span class="meta-sep" aria-hidden="true">|</span>
+          <a href="https://www.linkedin.com/in/your-linkedin-handle" target="_blank" rel="noopener">LinkedIn Profile</a>
+        </p>
         <h1>Michael Cingari</h1>
-        <p class="tagline">Learning &amp; Development Leader | Instructional Design</p>
+        <p class="tagline">
+          <span class="role">Project Management</span>
+          <span class="role-sep" aria-hidden="true">|</span>
+          <span class="role">Learning &amp; Development Leader</span>
+          <span class="role-sep" aria-hidden="true">|</span>
+          <span class="role">Instructional Design</span>
+        </p>
+        <p class="hero-meta hero-contact">
+          <a href="mailto:mjcingari0@gmail.com">mjcingari0@gmail.com</a>
+          <span class="meta-sep" aria-hidden="true">|</span>
+          <a href="tel:+19498424974">949-842-4974</a>
+        </p>
         <p class="hero-summary">
           I design learning experiences that close performance gaps — from eLearning modules
           and instructor-led training to job aids and blended learning programs. Explore a
           selection of my recent work below.
         </p>
         <div class="hero-actions">
-          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <div class="resume-dropdown" id="resume-dropdown">
+            <button type="button" class="btn btn-accent" id="resume-toggle" aria-haspopup="true" aria-expanded="false">
+              Download Resume
+              <span class="caret" aria-hidden="true">▾</span>
+            </button>
+            <div class="resume-menu" id="resume-menu" hidden>
+              <a href="assets/resume/Michael-Cingari-Resume.pdf" download>Download as PDF</a>
+              <a href="assets/resume/Michael-Cingari-Resume.docx" download>Download as Word Doc</a>
+            </div>
+          </div>
+
+          <a href="#projects" class="btn btn-light">View Projects</a>
           <a href="#contact" class="btn btn-outline">Contact Me</a>
         </div>
       </div>
@@ -60,20 +86,37 @@
       <div class="container">
         <div class="about-text">
           <p class="section-label">About</p>
-          <h2>A quick introduction</h2>
           <p>
-            I'm an Instructional Designer with a technical background — a B.S. in Computer
-            Science and an M.A. in Education — and hands-on experience in curriculum
-            development, needs assessment, and training design for multi-site programs serving
-            2,000+ learners.
+            I design learning experiences that meet people where they are — whether that's a
+            live classroom, a virtual session, or a self-paced course someone completes on
+            their own time.
           </p>
           <p>
-            I'm skilled in ADDIE, adult learning theory, and eLearning authoring tools, with a
-            data-driven approach to improving learning outcomes. I'm currently seeking a remote
-            Instructional Design role where I can apply this blend of technical and instructional
-            expertise.
+            My path here started outside a traditional instructional design track: I partnered
+            with public school districts to bring supplemental STEAM, PE, and enrichment
+            curriculum into their schools, owning everything from needs assessment through
+            delivery and evaluation. That process — understanding what a partner actually
+            needs, translating it into clear learning objectives, designing to fit real
+            constraints, and measuring whether it worked — is the same discipline I bring to
+            instructional design today, just applied to a new subject matter.
           </p>
-          <a href="assets/resume/Michael-Cingari-Resume.pdf" class="btn btn-primary" download>Download Resume</a>
+          <p>
+            I build using ADDIE and adult learning theory as my foundation, write objectives
+            aligned to Bloom's Taxonomy and UDL principles, and design across all three major
+            modalities — instructor-led, virtual instructor-led, and eLearning — so I can match
+            the format to the need rather than defaulting to one tool.
+          </p>
+          <p>
+            AI is part of how I work, not a gimmick layered on top — I use tools like
+            Articulate Rise for authoring, ElevenLabs for narration, and MidJourney for visuals
+            to build polished, production-quality courses efficiently. My "Fair Housing Basics"
+            course in this portfolio walks through that full process, start to finish.
+          </p>
+          <p>
+            I'm currently focused on bringing this approach to organizations that need
+            training built with rigor, empathy for the learner, and an eye toward what modern
+            tools make possible.
+          </p>
         </div>
 
         <h3 class="skills-grid-heading">Core Competencies</h3>
@@ -104,13 +147,14 @@
             <h3>Tools</h3>
             <ul class="skills-list">
               <li>Articulate 360 (Storyline &amp; Rise)</li>
-              <li>Google Classroom</li>
+              <li>Camtasia</li>
               <li>Adobe Creative Suite</li>
               <li>Canva &amp; Figma</li>
               <li>Google Workspace &amp; MS Office</li>
               <li>Asana</li>
               <li>Claude Code</li>
               <li>Generative AI Tools</li>
+              <li>Zoom, Google Meet, &amp; Microsoft Teams</li>
             </ul>
           </div>
         </div>
