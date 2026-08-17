@@ -17,31 +17,6 @@ mainNav.querySelectorAll('a').forEach((link) => {
   });
 });
 
-// Resume format dropdown
-const resumeToggle = document.getElementById('resume-toggle');
-const resumeMenu = document.getElementById('resume-menu');
-
-resumeToggle.addEventListener('click', (event) => {
-  event.stopPropagation();
-  const isOpen = resumeMenu.hidden;
-  resumeMenu.hidden = !isOpen;
-  resumeToggle.setAttribute('aria-expanded', isOpen);
-});
-
-document.addEventListener('click', (event) => {
-  if (!resumeMenu.hidden && !event.target.closest('#resume-dropdown')) {
-    resumeMenu.hidden = true;
-    resumeToggle.setAttribute('aria-expanded', 'false');
-  }
-});
-
-resumeMenu.querySelectorAll('a').forEach((link) => {
-  link.addEventListener('click', () => {
-    resumeMenu.hidden = true;
-    resumeToggle.setAttribute('aria-expanded', 'false');
-  });
-});
-
 // Project filtering
 const filterButtons = document.querySelectorAll('.filter-btn');
 const projectCards = document.querySelectorAll('.project-card');
